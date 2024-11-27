@@ -1,0 +1,12 @@
+{
+  "tasks": [
+    {
+      "id": "6c4d596c-52a3-47b9-b63e-66696fabd7c8",
+      "title": "projeto criação de tasks",
+      "description": "api para gerenciamento de tasks",
+      "completed_at": null,
+      "created_at": "27/11/2024",
+      "updated_at": null
+    }
+  ]
+}
