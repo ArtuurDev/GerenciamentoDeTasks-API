@@ -11,6 +11,8 @@ export async function requestBody(req, res) {
         req.body = JSON.parse(Buffer.concat(buffers).toString())
         return req.body
     } catch {
-        req.body =  []
+        req.body =  null
+
     }
+    res.setHeader('Content-Type', 'application/json');
 }
